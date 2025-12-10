@@ -1,0 +1,40 @@
+.app-root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.editor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.conflict-window {
+  margin-top: 20px;
+}
+
+.merge-button {
+  margin-top: 10px;
+  border: 1px solid #444;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+}
+
+.merge-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.merge-button:hover:not(:disabled) {
+  background-color: #444;
+}
+
+.error-banner {
+  color: #ff9d9d;
+  margin-top: 10px;
+}

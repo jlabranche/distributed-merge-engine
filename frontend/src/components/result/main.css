@@ -1,0 +1,16 @@
+.result-container {
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.result-container pre {
+  font-family: "Fira Code", monospace;
+  font-size: 0.92rem;
+  color: #00ff6a;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}
