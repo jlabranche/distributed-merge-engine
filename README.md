@@ -35,7 +35,7 @@ The frontend lets you build test scenarios and submit merge requests to the gate
 
 ## Demo Video
 
-[![Demo Thumbnail](media/frontend.png)](media/recording.mov)
+[![Demo Thumbnail](media/frontend.png)](media/recording.gif)
 
 ## Running the Services
 
